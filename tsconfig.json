@@ -1,8 +1,12 @@
 {
+  "extends": "./tsconfig.paths.json",
   "compilerOptions": {
     "target": "ES3",
     "module": "CommonJS",
-    "lib": ["ESNext", "DOM"],
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
     "outDir": "./dist",
     "rootDir": "./src",
     "removeComments": true,
@@ -14,5 +18,10 @@
   },
   "include": [
     "./src"
-  ]
+  ],
+  "ts-node": {
+    "require": [
+      "tsconfig-paths/register"
+    ]
+  }
 }
