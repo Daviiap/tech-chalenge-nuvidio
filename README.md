@@ -33,4 +33,4 @@ Para rodar o projeto você precisa ter instalado:
 Tendo todos estes pre requisitos instalados, basta rodar `docker-compose up` para
 subir o container e deixar a aplicação rodando.
 
-#### challenge by coodesh
+#### challenge by [coodesh](https://coodesh.com/)
